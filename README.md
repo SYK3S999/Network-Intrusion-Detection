@@ -103,7 +103,7 @@ cic-ids-advgan/
 ## Installation
 
 ```bash
-git clone https://github.com/SYK3S999/cic-ids-advgan.git
+git clone https://github.com/SYK3S999/Network-Intrusion-Detection.git
 cd cic-ids-advgan
 pip install -r requirements.txt
 ```
@@ -119,33 +119,6 @@ scikit-learn>=1.3
 torch>=2.0
 joblib>=1.3
 ```
-
----
-
-## Dataset Setup
-
-1. Download the **CIC-IDS 2017** dataset from the [University of New Brunswick](https://www.unb.ca/cic/datasets/ids-2017.html)
-2. Extract the `MachineLearningCVE` folder
-3. Update the `DATA_FOLDER` path in **Section 1** of the notebook:
-
-```python
-DATA_FOLDER = "/path/to/MachineLearningCVE"
-```
-
-The folder should contain these 8 CSV files:
-
-```
-Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
-Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
-Friday-WorkingHours-Morning.pcap_ISCX.csv
-Monday-WorkingHours.pcap_ISCX.csv
-Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
-Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
-Tuesday-WorkingHours.pcap_ISCX.csv
-Wednesday-workingHours.pcap_ISCX.csv
-```
-
----
 
 ## AdvGAN Design
 
@@ -214,27 +187,6 @@ This work is part of a broader PhD project on **adversarial robustness in federa
 - [ ] Integration into federated learning pipeline
 - [ ] Evaluation on CICIDS 2018 and UNSW-NB15
 
----
-
-## Citation
-
-If you use this code or pipeline in your research, please cite:
-
-```bibtex
-@misc{SYK3S9992025cicids,
-  author    = {Your Name},
-  title     = {Network Intrusion Detection with Adversarial Robustness: CIC-IDS 2017},
-  year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/SYK3S999/cic-ids-advgan}
-}
-```
-
----
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 

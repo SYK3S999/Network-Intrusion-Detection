@@ -171,14 +171,6 @@ To skip retraining and load saved models directly, jump to **Section 7.2 (Load M
 
 ---
 
-## Research Context
-
-This work is part of a broader PhD project on **adversarial robustness in federated intrusion detection systems**, combining:
-
-- DRL-based client selection for federated learning
-- Adversarial attack generation targeting distributed IDS models
-- Robustness evaluation under varying federation scenarios
-
 ### Next Steps
 
 - [ ] Multi-class attack classification (15 labels)
@@ -191,5 +183,5 @@ This work is part of a broader PhD project on **adversarial robustness in federa
 ---
 
 <div align="center">
-  <sub>PhD Research · Department of Computer Science · University Name</sub>
+  <sub>PhD Research · LS2N-NII</sub>
 </div>

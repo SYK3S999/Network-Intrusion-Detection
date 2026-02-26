@@ -103,7 +103,7 @@ cic-ids-advgan/
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/cic-ids-advgan.git
+git clone https://github.com/SYK3S999/cic-ids-advgan.git
 cd cic-ids-advgan
 pip install -r requirements.txt
 ```
@@ -221,12 +221,12 @@ This work is part of a broader PhD project on **adversarial robustness in federa
 If you use this code or pipeline in your research, please cite:
 
 ```bibtex
-@misc{yourname2025cicids,
+@misc{SYK3S9992025cicids,
   author    = {Your Name},
   title     = {Network Intrusion Detection with Adversarial Robustness: CIC-IDS 2017},
   year      = {2025},
   publisher = {GitHub},
-  url       = {https://github.com/yourname/cic-ids-advgan}
+  url       = {https://github.com/SYK3S999/cic-ids-advgan}
 }
 ```
 
